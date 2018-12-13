@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle tut-package",
+        "command": "tut-package:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "tut-package",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "tut-package:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
